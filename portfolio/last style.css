@@ -1,0 +1,205 @@
+#wrapper{
+    margin: 0 auto;
+    background-color: #028386;
+    height: 100%;
+}
+#welcome-section{
+    height: 100%;
+}
+#navbar{
+    position: fixed;
+    top: 0;
+    background-color: #282E34;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: right;
+    /* margin-bottom: 5rem; */
+}
+.nav-link{
+    text-decoration: none;
+    text-align: right;
+    font-size: 1.7rem;
+    margin-right: 3rem;
+    color: #FFDD40;
+}
+.nav-link:hover{
+    color: #044d4e;
+    background-color:#FFDD40;
+}
+#header{
+    margin: 20rem auto;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#header-p{
+    font-family: monospace;
+    color: #ffffff;
+    margin-top: -2.5rem;
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+/* project section */
+
+#projects{
+    background-color: #FFDD40;
+    padding: 2rem;
+   
+}
+#project{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+#project-head{
+    color: #044d4e;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline dotted;
+}
+
+.project-tile{
+    background-color:#ad8e00;
+    width: 30%;
+    margin: 1.5rem;
+    padding:1.5rem 2rem;
+    text-align: center;
+    border-radius: 3px;
+
+}
+.project-link{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.project-link:hover{
+    color: #0f5455;
+    font-weight: bolder;
+}
+#profile-link{
+    background-color:#ad8e00;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: .5rem;
+    text-align: center;
+    margin: 2rem auto;
+    display: block;
+    width: 11%;
+    text-decoration: none;
+    color: #0f5455;
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+#profile-link:hover{
+    background-color: #044d4e;
+    color: #FFDD40;
+}
+
+#contact-section{
+    padding: 2rem 2rem 5rem 0;
+    text-align: center;
+    border-bottom: 3px solid #FFDD40;
+
+
+}
+#contact-head{
+    font-weight: 2rem;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contact-p{
+    color: #ffffff;
+    margin-top: -2rem;
+    font-size: 1.3rem;
+    font-family: monospace;
+}
+.contact-link{
+    color: black;
+    padding-right: 4rem;
+    text-decoration: none;
+}
+.contact-link:hover{
+    color: #FFDD40;
+
+}
+#contact-div{
+    margin-top: 5rem;
+}
+#footer{
+    padding: 1rem 0;
+    color: #FFDD40;
+    text-align: right;
+}
+#footer-p{
+    padding-right: 2rem;
+}
+.footer-link{
+    text-decoration: none;
+    padding-right: 2rem;
+    color: #000000;
+    font-size: 1.2rem;
+    font-family: monospace;
+    font-weight: bolder;
+
+}
+.footer-link:hover{
+    color: #FFDD40;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width:480px) and (min-width:299px) {
+#header{
+    font-size: 2rem; 
+    width: 90%;
+}
+#navbar{
+    text-align: center;
+}
+.nav-link{
+    font-size: 1.3rem;
+    margin: 0 1rem;
+}
+#projects{
+    padding: 0;
+}
+.project-tile{
+    width: 100%;
+}
+#profile-link{
+    width: 35%;
+    font-size: 1.3rem;
+    padding: .5rem 1rem;
+}
+.contact-link{
+    padding: .5rem;
+}
+}
+
+/* for tablets */
+@media screen and (max-width:768px) and (min-width:480px) {
+#navbar{
+    text-align: center;
+}
+#projects{
+    padding: 0;
+}
+.project-tile{
+    width: 100%;
+}
+
+#profile-link{
+width: 50%;
+font-size: 1.3rem;
+padding: .5rem 1rem;
+}
+.contact-link{
+    padding: .5rem;
+}
+}
